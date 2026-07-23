@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gurgeh — Review agent work before it becomes history</title>
-<meta name="description" content="The flight recorder for AI coding agents. Gurgeh records what your agents actually did — turn by turn, observed not narrated — so you review it before the commit, before the push, before anyone else has to.">
+<meta name="description" content="Gurgeh is the per-turn record of what your AI coding agents actually did — observed, not narrated — so you review it before the commit, before the push, before anyone else has to.">
 <meta property="og:title" content="Gurgeh — Review your agent's work before it becomes history">
-<meta property="og:description" content="The flight recorder for AI coding agents. Observed, not narrated. Local-first. Launching 2026.">
+<meta property="og:description" content="The per-turn record of what your AI coding agents actually did. Observed, not narrated. Local-first. Launching 2026.">
 <meta property="og:url" content="https://gurgeh.ai/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://gurgeh.ai/og.png">
@@ -162,7 +162,7 @@ footer{border-top:1px solid var(--border-subtle);padding:44px 0 60px;color:var(-
 </div></nav>
 
 <header class="hero"><div class="wrap">
-  <div class="eyebrow">The flight recorder for AI coding agents</div>
+  <div class="eyebrow">The per-turn record for AI coding agents</div>
   <h1>Review your agent's work <em>before</em> it becomes history.</h1>
   <p class="sub">Your agent narrates its own work — and the narration is confidently wrong just often enough to matter. Gurgeh records what actually happened, turn by turn, so you catch it on your machine — before the commit, before the push, before anyone else has to.</p>
   <div class="hero-cta">
@@ -173,7 +173,7 @@ footer{border-top:1px solid var(--border-subtle);padding:44px 0 60px;color:var(-
 
   <div class="record">
     <div class="record-bar"><span class="dot3"></span><span class="dot3"></span><span class="dot3"></span>
-      <span class="t">gurgeh demo — the flight recorder catching a false "12 passed"</span></div>
+      <span class="t">gurgeh demo — catching a false "12 passed" before it became a commit</span></div>
     <img src="/demo.gif" alt="Gurgeh demo: a commit that looks fine, the agent's claim that 12 tests passed, and the observed exit code 1 that contradicts it — plus a changed file nobody mentioned" style="display:block;width:100%">
     <div class="record-foot">✓ real UI, real sample data — run it yourself: <span style="color:var(--text-2)">gurgeh demo</span></div>
   </div>
@@ -182,7 +182,7 @@ footer{border-top:1px solid var(--border-subtle);padding:44px 0 60px;color:var(-
 <section id="problem"><div class="wrap">
   <div class="section-eyebrow">The problem</div>
   <h2>The diff you review is the story's last page.</h2>
-  <p class="lead">Your agents run overnight, touch 200 files, and hand you a final diff with a tidy summary. The diff tells you <strong>what</strong> survived. It can't tell you <strong>why</strong> it changed, what was tried and reverted, or whether "all tests pass" was ever true. So you skim, you approve, and you hope. <strong>Gurgeh ends the hoping — while the work is still on your machine.</strong></p>
+  <p class="lead">Your agents run overnight, touch 200 files, and hand you a final diff with a tidy summary. The diff tells you <strong>what</strong> survived. It can't tell you <strong>why</strong> it changed, what was tried and reverted, or whether "all tests pass" was ever true. So you skim, you approve, and you hope. You're in good company: in <a href="https://survey.stackoverflow.co/2025/" rel="noopener">Stack Overflow's 2025 survey</a>, 46% of developers said they distrust the accuracy of AI output, and 45% said debugging AI-generated code is where the time goes. <strong>Gurgeh ends the hoping — while the work is still on your machine.</strong></p>
 </div></section>
 
 <section id="capture-point"><div class="wrap">
@@ -249,7 +249,7 @@ footer{border-top:1px solid var(--border-subtle);padding:44px 0 60px;color:var(-
   <div class="section-eyebrow">Launching 2026 · Free & open source</div>
   <h2>Be first on the record.</h2>
   <p class="lead" style="margin:0 auto">Gurgeh launches publicly later this year — local-first, open source, and the full local experience free forever. Early access goes to people who review agent code every day. Tell us what you run and we'll get you in.</p>
-  <div class="cta-row"><a class="pill amber" href="mailto:early@gurgeh.ai?subject=Early%20access&body=Which%20agent%20tools%20do%20you%20use%3F%20(Claude%20Code%2C%20Cursor%2C%20Codex%E2%80%A6)%0AHow%20often%20do%20agents%20write%20code%20you%20have%20to%20review%3F">Get early access</a></div>
+  <div class="cta-row"><a class="pill amber" href="mailto:early@gurgeh.ai?subject=Early%20access&body=Which%20agent%20tools%20do%20you%20use%3F%20(Claude%20Code%2C%20Cursor%2C%20Codex%E2%80%A6)%0AHow%20often%20do%20agents%20write%20code%20you%20have%20to%20review%3F%0AHow%20did%20you%20hear%20about%20Gurgeh%3F">Get early access</a></div>
   <div class="install" aria-label="Available at launch"><span class="prompt-sign">$</span> curl -LsSf https://gurgeh.ai/install.sh | sh &nbsp;<span style="color:var(--text-3);font-size:13px">— at launch</span></div>
   <p class="microcopy" style="margin-top:16px;opacity:1;animation:none">macOS &amp; Linux at launch — Windows is on the roadmap, not in the box.</p>
 </div></section>
